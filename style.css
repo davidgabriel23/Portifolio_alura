@@ -41,7 +41,7 @@ body {
 
 .apresentacao__conteudo__titulo {
     font-size: 36px;
-    font-family: 'Krona One', sans-serif;;
+    font-family: 'Krona One', sans-serif;
 }
 
 .apresentacao__conteudo__texto {
@@ -52,19 +52,35 @@ body {
 }
 .apresentacao__links {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    align-items: center;
+    gap: 32px;
     
 }
 
+
+.apresentacao__links__subtitulos{
+
+   font-family: 'Krona One', sans-serif;
+   font-weight: 400;
+   font-size: 24px;
+}
+    
+
 .apresentacao__links__links {
-    background-color: #22D4FD;
-    width: 280px;
+    /* background-color: #22D4FD; */
+    display: flex; /* coloquei o icone um do lado do outro */
+    justify-content: center; /* alinhei eles no meio */
+    gap: 16px; /* dei a margem entre o texto e o icone */
+    border: 2px solid #22d4fd;
+    width: 378px;
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;
     font-weight: 600;
     padding: 21.5px 0;
     text-decoration: none;
-    color: #000000;
+    color: #f5f5f5;
     font-family: 'Montserrat', sans-serif;
 }
