@@ -34,7 +34,7 @@ body {
     align-items: center;
     justify-content: center;
     gap: 100px;
-    height: calc(100vh - 590px);
+   /* height: calc(100vh - 590px); */
 }
 
 .apresentacao__conteudo { 
@@ -55,7 +55,7 @@ body {
 }
 
 .cabecalho {
-    padding: 5% 0% 0% 26%;
+    padding: 5% 0% 0% 18%;
 }
 
 .cabecalho__menu {
